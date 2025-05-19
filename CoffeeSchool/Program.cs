@@ -3,7 +3,7 @@ using CoffeeShop.Models.interfaces;
 using CoffeeShop.Models.Services;
 using Microsoft.EntityFrameworkCore;
 
-namespace CoffeeSchool
+namespace CoffeeShop
 {
     public class Program
     {

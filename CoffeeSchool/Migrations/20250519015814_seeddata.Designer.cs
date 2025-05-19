@@ -8,10 +8,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace CoffeeSchool.Migrations
+namespace CoffeeShop.Migrations
 {
     [DbContext(typeof(CoffeeshopDbContext))]
-    [Migration("20250422122537_seeddata")]
+    [Migration("20250519015814_seeddata")]
     partial class seeddata
     {
         /// <inheritdoc />

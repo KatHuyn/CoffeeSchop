@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using CoffeeSchool.Models;
+using CoffeeShop.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CoffeeSchool.Controllers
+namespace CoffeeShop.Controllers
 {
     public class HomeController : Controller
     {
