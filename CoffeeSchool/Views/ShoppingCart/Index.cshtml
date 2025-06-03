@@ -56,8 +56,10 @@
                                             <h5 class="text-uppercase">Total price</h5>
                                             <h5>@ViewBag.TotalCart.ToString("c")</h5>
                                         </div>
-                                        <a>
-                                            <button type="button" class="btn btn-warning w-100 text-center">
+                                        <a asp-controller="Orders" asp-action="Checkout">
+                                            <button type="button" 
+                                                class="btn btn-warning w-100 text-center"
+                                            data-mdb-ripple-color="dark">
                                                 Proceed
                                             </button>
 
