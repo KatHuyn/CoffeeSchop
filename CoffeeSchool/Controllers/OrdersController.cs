@@ -1,17 +1,17 @@
-﻿
-using coffeeshop.Models.Services;
+﻿using CoffeeShop.Models.Services;
 using CoffeeShop.Models;
 using CoffeeShop.Models.Interfaces;
-using CoffeeShop.Models.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoffeeShop.Controllers
 {
+    [Authorize]
     public class OrdersController : Controller
     {
         private IOrderRepository orderRepository;
-        private ShoppingCartRepository shoppingCartRepository;
-        public OrdersController(IOrderRepository oderRepository, ShoppingCartRepository shoppingCartRepossitory)
+        private IShoppingCartRepository shoppingCartRepository;
+        public OrdersController(IOrderRepository oderRepository, IShoppingCartRepository shoppingCartRepossitory) 
         {
             this.orderRepository = oderRepository;
             this.shoppingCartRepository = shoppingCartRepossitory;

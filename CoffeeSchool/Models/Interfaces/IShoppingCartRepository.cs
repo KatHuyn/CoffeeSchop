@@ -1,6 +1,6 @@
 ﻿using CoffeeShop.Models;
 
-namespace coffeeShop.Models.Interfaces
+namespace CoffeeShop.Models.Interfaces
 {
     public interface IShoppingCartRepository
     {
@@ -10,5 +10,6 @@ namespace coffeeShop.Models.Interfaces
         void ClearCart();
         decimal GetShoppingCartTotal();
         public List<ShoppingCartItem> ShoppingCartItems { get; set; }
+
     }
 }

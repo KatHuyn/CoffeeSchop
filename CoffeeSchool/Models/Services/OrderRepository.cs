@@ -1,6 +1,5 @@
-﻿using coffeeShop.Models.Interfaces;
+﻿using CoffeeShop.Models.Interfaces;
 using CoffeeShop.Data;
-using CoffeeShop.Models.Interfaces;
 
 namespace CoffeeShop.Models.Services
 {

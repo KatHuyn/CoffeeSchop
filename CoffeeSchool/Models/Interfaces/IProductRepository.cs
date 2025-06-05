@@ -1,6 +1,6 @@
 ﻿using CoffeeShop.Models;
 
-namespace CoffeeShop.Models.interfaces
+namespace CoffeeShop.Models.Interfaces
 {
     public interface IProductRepository
     {

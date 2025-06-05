@@ -1,7 +1,6 @@
-﻿using coffeeShop.Models.Interfaces;
-using CoffeeShop.Models.interfaces;
+﻿using CoffeeShop.Models.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-namespace coffeeshop.Controllers
+namespace CoffeeShop.Controllers
 {
     public class ShoppingCartController : Controller
     {

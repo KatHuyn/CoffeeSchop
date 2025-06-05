@@ -1,9 +1,9 @@
-﻿using coffeeShop.Models.Interfaces;
+﻿using CoffeeShop.Models.Interfaces;
 using CoffeeShop.Data;
 using CoffeeShop.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace coffeeshop.Models.Services
+namespace CoffeeShop.Models.Services
 {
     public class ShoppingCartRepository : IShoppingCartRepository
     {
